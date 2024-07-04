@@ -7,8 +7,10 @@
 body{
     display:flex;
     flex-direction: column;
-    
+}
 
+button {
+    border-radius: 5px;
 }
 
 /* Header */
@@ -18,7 +20,6 @@ body{
    background-color: darkslateblue;
    padding: 5px 130px 40px 130px;
    min-width: 100%;
- 
 }
 
 .text {
@@ -69,6 +70,7 @@ a {
     display:flex;
     gap: 25px;
     justify-content: flex-end;
+    
 }
 
 li {
@@ -103,6 +105,77 @@ ul {
     justify-content: center;
     column-gap: 20px;
     margin-top: 20px;
-    
+}
 
+.redirect img {
+    border-radius: 10px;
+}
+
+/* Testimonials */
+.warrior {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding: 25px;
+    background-color: darkgray;
+}
+
+.slughorn,
+.snape {
+    display:flex;
+    justify-content: center;
+    width: 475px;
+    flex-direction: column;
+}
+
+.name {
+    display:flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.testimonial-text {
+    font-size: 21px;
+}
+
+.snape .name {
+    margin-right: 15px;
+}
+
+/* Newletter */
+
+.healer {
+    display: flex;
+    margin: 50px 125px;
+    background-color: cornflowerblue;
+    justify-content: space-around;
+    padding:25px 15px;
+    border-radius: 15px;
+   
+}
+
+.button2 {
+    width:fit-content;
+    height:fit-content;
+    padding:5px;
+    align-self:center;
+}
+
+.container .heading {
+    font-size: 20;
+    font-weight: 800;
+}
+
+.container .text {
+    font-size: 12px;
+}
+
+/* Footer */
+.bard {
+    display:flex;
+    background-color: indianred;
+    min-height: 75px;
+    justify-content: center;
+    align-items: center;
 }
