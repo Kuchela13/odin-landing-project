@@ -3,6 +3,8 @@ I decided to have a little fun with this project and drew inspiration from the f
 
 Link to a pic of the character (fanart): https://www.reddit.com/r/fireemblem/comments/mdox0v/florina_commission/ .All credit to reddit user dpitch40.
 
+Try clicking a link or button :P
+
 
 
 Photo Credit:
