@@ -7,6 +7,7 @@
 body{
     display:flex;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button {
@@ -17,9 +18,9 @@ button {
 .hero {
    display:flex;
    justify-content:space-around;
-   background-color: darkslateblue;
+   background-color: #e49ab0;
    padding: 5px 130px 40px 130px;
-   min-width: 100%;
+   min-width: 100%;  
 }
 
 .text {
@@ -27,12 +28,13 @@ button {
     flex-direction: column;
     justify-content: center;
     text-wrap: wrap;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .button1 {
     max-width: fit-content;
     padding: 5px;
+    background-color: grey;
 }
 
 .header-left,
@@ -55,11 +57,14 @@ button {
 }
 
 .header-maintext {
-    font-size: 30px;
+    font-size: 33px;
+    font-weight: 800;
+    color: #F9FAF8
 }
 
 .header-subtext {
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 a {
@@ -68,14 +73,12 @@ a {
 
 .links ul {
     display:flex;
-    gap: 25px;
+    gap: 45px;
     justify-content: flex-end;
-    
 }
 
 li {
     list-style: none;
-   
 }
 
 ul {
@@ -88,15 +91,12 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: bisque;
     padding:25px;
-
 }
 
-.mage > p {
-    font-size: 24px;
+.options {
+    font-size: 28px;
 }
-
 
 .redirect {
     display: flex;
@@ -118,7 +118,9 @@ ul {
     align-items: center;
     row-gap: 30px;
     padding: 25px;
-    background-color: darkgray;
+    background-color: rgb(73, 65, 100);
+    font-style: italic;
+    color: #E5E7EB;
 }
 
 .slughorn,
@@ -136,7 +138,7 @@ ul {
 }
 
 .testimonial-text {
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .snape .name {
@@ -148,18 +150,19 @@ ul {
 .healer {
     display: flex;
     margin: 50px 125px;
-    background-color: cornflowerblue;
+    background-color:grey;
     justify-content: space-around;
     padding:25px 15px;
     border-radius: 15px;
-   
+    align-items: center;
 }
 
 .button2 {
     width:fit-content;
     height:fit-content;
     padding:5px;
-    align-self:center;
+    background-color: grey;
+    border: solid black;
 }
 
 .container .heading {
@@ -174,7 +177,7 @@ ul {
 /* Footer */
 .bard {
     display:flex;
-    background-color: indianred;
+    background-color:  #e49ab0;
     min-height: 75px;
     justify-content: center;
     align-items: center;
